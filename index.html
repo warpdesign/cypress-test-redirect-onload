@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <script type="text/javascript">
+        // uncomment this line to trigger bug:
+        // window.location.replace('https://www.google.fr')
         window.onload = () => {
-            console.log('onload')
+            window.location.replace('https://www.google.fr')
         }
     </script>
     <body>
